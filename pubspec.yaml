@@ -1,0 +1,73 @@
+name: nutrisnap
+description: AI-powered food tracking app — Photo meals, get instant nutrition data, personalised meal plans & dashboards.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State & Architecture
+  flutter_riverpod: ^2.5.0
+  riverpod_annotation: ^2.3.0
+  go_router: ^14.0.0
+  freezed_annotation: ^2.4.0
+  json_annotation: ^4.9.0
+
+  # Firebase
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_storage: ^12.0.0
+  firebase_messaging: ^15.0.0
+  firebase_analytics: ^11.0.0
+
+  # UI & Charts
+  fl_chart: ^0.68.0
+  google_fonts: ^6.2.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  lottie: ^3.1.0
+  flutter_animate: ^4.5.0
+
+  # Camera & Media
+  camera: ^0.11.0
+  image_picker: ^1.1.0
+  image_cropper: ^7.0.0
+  mobile_scanner: ^5.0.0
+
+  # Networking
+  dio: ^5.4.0
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.3.0
+  share_plus: ^9.0.0
+  path_provider: ^2.1.0
+  pdf: ^3.11.0
+  csv: ^6.0.0
+  flutter_svg: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.0
+  freezed: ^2.5.0
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.0
+  mockito: ^5.4.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
